@@ -1,4 +1,4 @@
-package com.umvini.studybasickotlin.onecodelab
+package com.umvini.studybasickotlin.phase.onecodelab
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
