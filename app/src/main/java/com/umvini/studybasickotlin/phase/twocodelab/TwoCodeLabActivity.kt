@@ -19,6 +19,10 @@ class TwoCodeLabActivity : AppCompatActivity() {
         setActionBar()
         initViews()
         initClicks()
+
+        if(tvNumber.text == "Hello World") {
+            tvNumber.text = "1"
+        }
     }
 
     private fun setActionBar() {
@@ -33,7 +37,8 @@ class TwoCodeLabActivity : AppCompatActivity() {
 
     private fun initClicks() {
         rollButton.setOnClickListener {
-            tvNumber.text = (1..6).random().toString()
+            if (tvNumber.text != "6")
+                tvNumber.text = (1..6).random().toString()
         }
     }
 
