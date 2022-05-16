@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.umvini.studybasickotlin.phase.adapter.AdapterItemListActivity
 import com.umvini.studybasickotlin.phase.adapter.ItemListActivity
 import com.umvini.studybasickotlin.phase.onecodelab.OneCodeLabActivity
+import com.umvini.studybasickotlin.phase.threecodelab.ThreeCodeLabActivity
 import com.umvini.studybasickotlin.phase.twocodelab.TwoCodeLabActivity
 
 
@@ -33,6 +34,7 @@ class MainActivity : AppCompatActivity(), AdapterItemListActivity.OnClick {
         itemListActivities = ArrayList()
         itemListActivities.add(ItemListActivity("One Code Lab", OneCodeLabActivity::class.java))
         itemListActivities.add(ItemListActivity("Two Code Lab", TwoCodeLabActivity::class.java))
+        itemListActivities.add(ItemListActivity("Three Code Lab", ThreeCodeLabActivity::class.java))
     }
 
     private fun initRecyclerView() {

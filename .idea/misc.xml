@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/dice_1.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/empty_dice.xml" value="0.111" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.23333333333333334" />
         <entry key="app/src/main/res/layout/activity_one_code_lab.xml" value="0.23333333333333334" />
+        <entry key="app/src/main/res/layout/activity_three_code_lab.xml" value="0.23333333333333334" />
         <entry key="app/src/main/res/layout/activity_two_code_lab.xml" value="0.23333333333333334" />
         <entry key="app/src/main/res/layout/item_list_activity.xml" value="0.45" />
       </map>
