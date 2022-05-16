@@ -13,6 +13,7 @@ class OneCodeLabActivity : AppCompatActivity() {
 
         val actionBar = supportActionBar
         actionBar!!.setDisplayHomeAsUpEnabled(true)
+        actionBar.title = "One CodeLab"
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {

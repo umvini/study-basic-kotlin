@@ -11,6 +11,7 @@ class TwoCodeLabActivity : AppCompatActivity() {
 
     lateinit var tvNumber: TextView
     lateinit var rollButton: Button
+    lateinit var countUp: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,17 +29,24 @@ class TwoCodeLabActivity : AppCompatActivity() {
     private fun setActionBar() {
         val actionBar = supportActionBar
         actionBar!!.setDisplayHomeAsUpEnabled(true)
+        actionBar.title = "Two CodeLab"
     }
 
     private fun initViews() {
         tvNumber = findViewById(R.id.tv_number)
         rollButton = findViewById(R.id.bt_roll)
+        countUp = findViewById(R.id.bt_count_up)
     }
 
     private fun initClicks() {
         rollButton.setOnClickListener {
             if (tvNumber.text != "6")
                 tvNumber.text = (1..6).random().toString()
+        }
+        countUp.setOnClickListener {
+            val int = tvNumber.text.toString().toInt()
+
+            tvNumber.text = (int + 1).toString()
         }
     }
 
