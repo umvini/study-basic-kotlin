@@ -14,7 +14,10 @@
         android:theme="@style/Theme.StudyBasicKotlin"
         tools:targetApi="31">
         <activity
-            android:name=".OneCodeLabActivity"
+            android:name=".phase.twocodelab.TwoCodeLabActivity"
+            android:exported="false" />
+        <activity
+            android:name=".phase.onecodelab.OneCodeLabActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
