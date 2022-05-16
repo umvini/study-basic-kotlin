@@ -5,8 +5,8 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.umvini.studybasickotlin.phase.adapter.AdapterItemListActivity
-import com.umvini.studybasickotlin.phase.adapter.ItemListActivity
+import com.umvini.studybasickotlin.adapter.AdapterItemListActivity
+import com.umvini.studybasickotlin.adapter.ItemListActivity
 import com.umvini.studybasickotlin.phase.onecodelab.OneCodeLabActivity
 import com.umvini.studybasickotlin.phase.threecodelab.ThreeCodeLabActivity
 import com.umvini.studybasickotlin.phase.twocodelab.TwoCodeLabActivity

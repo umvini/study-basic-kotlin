@@ -1,4 +1,4 @@
-package com.umvini.studybasickotlin.phase.adapter
+package com.umvini.studybasickotlin.adapter
 
 import android.view.LayoutInflater
 import android.view.View
