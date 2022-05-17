@@ -7,9 +7,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.umvini.studybasickotlin.adapter.AdapterItemListActivity
 import com.umvini.studybasickotlin.adapter.ItemListActivity
-import com.umvini.studybasickotlin.phase.onecodelab.OneCodeLabActivity
-import com.umvini.studybasickotlin.phase.threecodelab.ThreeCodeLabActivity
-import com.umvini.studybasickotlin.phase.twocodelab.TwoCodeLabActivity
+import com.umvini.studybasickotlin.phase.getstarted.GetStartedActivity
+import com.umvini.studybasickotlin.phase.imageresources.ImageResourcesActivity
+import com.umvini.studybasickotlin.phase.anatomyofbasic.AnatomyOfBasicActivity
 
 
 class MainActivity : AppCompatActivity(), AdapterItemListActivity.OnClick {
@@ -32,9 +32,9 @@ class MainActivity : AppCompatActivity(), AdapterItemListActivity.OnClick {
 
     private fun initListActivities() {
         itemListActivities = ArrayList()
-        itemListActivities.add(ItemListActivity("One Code Lab", OneCodeLabActivity::class.java))
-        itemListActivities.add(ItemListActivity("Two Code Lab", TwoCodeLabActivity::class.java))
-        itemListActivities.add(ItemListActivity("Three Code Lab", ThreeCodeLabActivity::class.java))
+        itemListActivities.add(ItemListActivity("One Code Lab", GetStartedActivity::class.java))
+        itemListActivities.add(ItemListActivity("Two Code Lab", AnatomyOfBasicActivity::class.java))
+        itemListActivities.add(ItemListActivity("Three Code Lab", ImageResourcesActivity::class.java))
     }
 
     private fun initRecyclerView() {

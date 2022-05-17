@@ -1,4 +1,4 @@
-package com.umvini.studybasickotlin.phase.threecodelab
+package com.umvini.studybasickotlin.phase.imageresources
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,7 +7,7 @@ import android.widget.Button
 import android.widget.ImageView
 import com.umvini.studybasickotlin.R
 
-class ThreeCodeLabActivity : AppCompatActivity() {
+class ImageResourcesActivity : AppCompatActivity() {
 
     lateinit var ivDiceImage: ImageView
     lateinit var rollButton: Button

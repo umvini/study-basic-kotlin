@@ -14,16 +14,24 @@
         android:theme="@style/Theme.StudyBasicKotlin"
         tools:targetApi="31">
         <activity
-            android:name=".phase.threecodelab.ThreeCodeLabActivity"
+            android:name=".phase.aboutme.AboutMeActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
-            android:name=".phase.twocodelab.TwoCodeLabActivity"
+            android:name=".phase.imageresources.ImageResourcesActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
-            android:name=".phase.onecodelab.OneCodeLabActivity"
+            android:name=".phase.anatomyofbasic.AnatomyOfBasicActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".phase.getstarted.GetStartedActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

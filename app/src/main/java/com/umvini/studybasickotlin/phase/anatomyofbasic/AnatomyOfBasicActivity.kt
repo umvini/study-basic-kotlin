@@ -1,4 +1,4 @@
-package com.umvini.studybasickotlin.phase.twocodelab
+package com.umvini.studybasickotlin.phase.anatomyofbasic
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,7 +7,7 @@ import android.widget.Button
 import android.widget.TextView
 import com.umvini.studybasickotlin.R
 
-class TwoCodeLabActivity : AppCompatActivity() {
+class AnatomyOfBasicActivity : AppCompatActivity() {
 
     lateinit var tvNumber: TextView
     lateinit var rollButton: Button

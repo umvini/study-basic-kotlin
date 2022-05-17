@@ -1,20 +1,26 @@
-package com.umvini.studybasickotlin.phase.onecodelab
+package com.umvini.studybasickotlin.phase.aboutme
 
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
-import androidx.appcompat.app.AppCompatActivity
 import com.umvini.studybasickotlin.R
 
-
-class OneCodeLabActivity : AppCompatActivity() {
+class AboutMeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_one_code_lab)
+        setContentView(R.layout.activity_four_code_lab)
 
+        setActionBar()
+
+    }
+
+    private fun setActionBar() {
         val actionBar = supportActionBar
         actionBar!!.setDisplayHomeAsUpEnabled(true)
-        actionBar.title = "One CodeLab"
+        actionBar.title = "About Me - CodeLab"
     }
+
+
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
